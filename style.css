@@ -1,0 +1,146 @@
+body{
+    background-color:#2b873c;
+    font-family: Arial, Helvetica, sans-serif ;
+    text-align: justify;
+}
+
+/*color pallete
+#2b873c
+9fe8a3
+568922
+#B4E380
+#e2ef61
+#F6FB7A
+*/
+
+
+.container{
+    width: 960px;
+    background-color: #9fe8a3 /*#c8f8c4*/;
+    margin: auto;
+    border: 1px solid black;
+}
+
+
+.header{
+    background-color: lightgreen;
+    background-image: url(img/alam2.jpg);
+    background-size: cover;
+    background-position: 0 -40px;
+    color: rgb(71, 39, 0);
+    font-weight: 600;
+    text-align: left;
+}
+
+.header h1, .content h2{
+    font-weight: 800;
+    text-align: center;
+}
+
+.header .menu a, .side-bar li a{
+    color: black;
+    text-decoration:none;
+    padding: 3px 15px 3px 15px;
+    font-size: 15px;
+}
+.header .menu a:hover, .side-bar li a:hover{
+    background-color:#E0FBE2;
+}
+.header, .content, .content-right {
+    padding: 10px 20px 10px 20px;
+}
+
+.header h1 a{
+    color: black;
+    text-decoration:none;
+}
+.header h1 a:hoverc{
+    background-color: #E0FBE2;
+}
+/*content index*/
+
+.content h3{
+    text-align: center;
+}
+.content p{
+    text-indent: 20px;
+}
+.img-beranda img{
+    height: 167px;
+    padding: 5px;
+}
+
+.side-bar{
+    width: 180px;
+    box-sizing: border-box;
+    float: left;
+    font-weight: bold;
+}
+.side-bar ul li a{
+    padding-left: 10px;
+}
+ul li{
+    list-style-type: none;
+    padding-bottom: 10px;
+}
+
+
+.content-right{
+    background-color: #BFF6C3;
+    width: 730px;
+    box-sizing: border-box;
+    float: right;
+}
+
+/*Content right for child file from flora and fauna*/
+.content-right .img-child img{
+    float: left;
+    width: 150px;
+    box-sizing: border-box;
+}
+
+.content-right .p-child{
+    float: right;
+    width: 500px;
+    box-sizing: border-box;
+}
+.clear{
+    clear: both;
+}
+
+.footer{
+    background-color: #ffcc3f /*#ece92f*/;
+    text-align: center;
+    font-size: 13px;
+    padding: 10px;
+}
+
+.footer p{
+    display: inline;
+    text-align: center;
+    padding: 15px;
+}
+
+
+
+
+
+
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    zoom: 1;
+}
+
+
+
+
